@@ -1,0 +1,320 @@
+nav{
+  background: #0a0a0a;
+  height: 80px;
+  width: 100%;
+  font-family:"Dosis",san-serif;
+}
+label.logo{
+  color: white;
+  font-size: 30px;
+  line-height: 80px;
+  padding-top: 10px ;
+  padding-bottom: 20px;
+  font-weight: bold;
+  position: relative;
+  bottom: 20px;
+  left: 30px;
+  font-family:"Dosis",san-serif;
+}
+.bcd{
+  height:75px;
+  width: 75px;
+  position: relative;
+  left: 20px;
+}
+nav ul{
+    margin-top: 0;
+  float: right;
+  margin-right: 40px;
+  font-family:"Dosis",san-serif;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    font-family:"Dosis",san-serif;
+    text-transform: uppercase;
+    text-decoration:none;
+}
+nav a.active,nav a:hover{
+  background: #c25cbd;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 20px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+@media (max-width: 900px){
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+}
+@media (max-width: 900px){
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 15px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  nav a:hover,nav a.active{
+    background:none;
+    color: #ac45ac;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
+.anchor{
+  padding-bottom:10px;
+text-decoration: none;
+color: rgb(177, 177, 177) ;
+}
+.anchor:hover{
+  color: rgb(162, 55, 177);
+  transition: 0.5s;
+}
+.anchor1{
+  text-decoration: none;
+  margin:5px;
+color: rgb(177, 177, 177) ;
+}
+.anchor1:hover{
+  text-decoration: underline;
+  color: rgb(162, 55, 177);
+  transition: 0.5s;
+}
+hr{
+  padding:0px;
+  height:1px ;
+  background-color: black;
+  border: none;
+  margin: 0px;
+}
+.footer {
+  /* position: absolute;
+  left: 0;   */
+  width: 100%;
+  color: rgb(177, 177, 177);
+  text-align: center;
+  font-family:"Dosis",san-serif;
+}
+/* Create two equal columns that floats next to each other */
+.column1 {
+  box-sizing: border-box;
+  float: left;
+  width: 60%;
+  padding: 10px;
+  height: 220px; /* Should be removed. Only for demonstration */
+}
+
+.column2 {
+  box-sizing: border-box;
+  float: left;
+  width: 40%;
+  padding: 10px;
+  height: 220px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+body{
+  background: url('/images/bg1.jpg');
+  background-size: cover;
+  font-family:"Dosis",san-serif;
+}
+.tip1 {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    background: transparent;
+    border: 10px solid #008CBA;
+  }
+
+  .tip2 {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    background: transparent;
+    border: 10px solid #4CAF50;
+  }
+
+  .tip-left {
+    top: 20px;
+    left: -20px;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+  }
+
+  .tip-right {
+    top: 20px;
+    right: -20px;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+  }
+
+  .dialogbox .body1 {
+    position: relative;
+    left:350px;
+    max-width: 600px;
+    height: auto;
+    margin:10px 20px ;
+    padding: 10px;
+    padding-bottom:20px;
+    background-color:rgb(172,57,172);
+    border-radius: 15px;
+
+  }
+
+  .dialogbox .body2 {
+    position: relative;
+    left:350px;
+    max-width: 600px;
+    height: auto;
+    margin: 10px 20px;
+    padding: 5px;
+    background-color: #4CAF50;
+    border-radius: 15px;
+    padding:10px;
+    background-color:rgb(223,128,223);
+  }
+
+  .body1 .message {
+    min-height: 30px;
+    border-radius: 3px;
+    font-family: "Dosis",san-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: white;
+  }
+
+  .body2 .message {
+    min-height: 30px;
+    border-radius: 3px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 1.5;
+    color: black;
+  }
+  * {
+    box-sizing: border-box;
+    font-family:Arial;
+    margin:0;
+  }
+
+  input[type=text], select, textarea {
+    width: 200px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    position:relative;
+    top:10px;
+  }
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  .container {
+    position: relative;
+    top: 10px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width:245px;
+    margin:20 auto 50 auto;
+  }
+
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+a{
+    color:white;
+    font-family:Arial;
+    font-size:15px;
+    font-family:"Dosis",san-serif;
+    text-decoration:none;
+}
+p{
+    font-family:"Dosis",san-serif;
+}
+h2{
+    font-family:"Dosis",san-serif;
+}

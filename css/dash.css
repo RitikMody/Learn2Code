@@ -1,0 +1,427 @@
+body{
+      background: url("/images/bg1.jpg");
+      background-size: cover;
+      font-family: "Varela Round";
+    }
+.myButton {
+  background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+  background-color:#ededed;
+  border-radius:8px;
+  border:1px solid #d6bcd6;
+  display:inline-block;
+  cursor:pointer;
+  color:#010303;
+  font-family:Courier New;
+  font-size:21px;
+  padding:7px 25px;
+  text-decoration:none;
+}
+.myButton:hover {
+  background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+  background-color:#bab1ba;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
+
+.w3-white{
+      /*padding:10px;*/
+      margin: 30px;
+      width:90%;
+      height:100px;
+      background-color: white;
+      display: inline-table;
+    }
+.insidetext{
+      background-color: rgb(216,191,216,0.4);
+      width:70%;
+      float:right;
+      margin-right: 30px;
+      margin-top: 50px;
+      height:250px;
+      border-radius: 10px;
+      padding-top: 50px;
+      font-size: 30px;
+      font-family:"Allerta Stencil", Sans-serif;
+    }
+.block{
+	background-color: #fff;
+	box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
+	border-radius: 5px;
+	padding: 20px;
+  margin-left:200px;
+  margin-right:200px;
+  margin-top: 50px;
+  	}
+
+nav{
+  background: #0a0a0a;
+  height: 80px;
+  width: 100%;
+  font-family:'Dosis', sans-serif;
+}
+.logo{
+  color: white;
+  font-size: 30px;
+  line-height: 80px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  position: relative;
+  bottom: 20px;
+  left: 30px;
+  top : 0;
+
+}
+.bcd{
+  height:75px;
+  width: 75px;
+  position: relative;
+  left: 20px;
+  bottom:8px;
+}
+.nav1 {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-left: -10px;
+  background: #292929;
+  display: inline-block;
+  position: absolute;
+}
+.nav1 li {
+  cursor: pointer;
+  border-top: 1px solid #757575;
+  border-bottom: 1px solid #757575;
+  margin-bottom: -1px;
+  width: 80px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 18px;
+   font-family: "Varela Round";
+  color: #ffffff;
+}
+.nav1 li div,
+.nav1 li i {
+  position: absolute;
+  text-align: center;
+  animation-duration: 0.34s;
+}
+.nav1 li div {
+  margin-left: 80px;
+  text-align: center;
+  width: 160px;
+}
+.nav1 li i {
+  line-height: 60px;
+  width: 80px;
+  z-index: 9;
+  background: #292929;
+}
+.nav1 li div {
+  display: none;
+  z-index: 1;
+  background:   #905da0;
+}
+
+.nav1 li:hover > div {
+  display: inline-block;
+}
+.nav1 li:hover i {
+  background:   #905da0;
+}
+.userProfile .name {
+    font-size: 32px;
+    font-weight: normal;
+    color: inherit;
+    white-space: normal;
+    font-family: "Varela Round";
+    position: relative;
+    top: 30px;
+    left:10px;
+}
+.userProfile.details{
+display: inline-block;
+    margin: 20px 0 0 20px;
+    overflow: hidden;
+
+
+}
+.userProfile {
+    font-size: 16px;
+    position: relative;
+    min-height: 20px;
+    overflow: hidden;
+}
+.avatar img{
+	border-radius: 50px;
+	width:100px;
+	height:100px;
+	float:left;
+}
+
+.main1{
+            margin: 50px auto;
+            width: 50%;
+            padding-right: 20px;
+          }
+          .progressBar{
+            position: relative;
+            width: 100%;
+            height: 40px;
+            background: #eeeeee;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 1px 2px #222;
+          }
+          .title{
+            position: absolute;
+            width: 100px;
+            height: 40px;
+            padding-left: 10px;
+            float: left;
+            font-weight: bold;
+            color: #fff;
+            line-height: 2.5;
+            z-index: 10000;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+            box-shadow: 2px 0 2px #333;
+            text-shadow: 1px 1px 1px #000;
+
+          }
+          .progress_value{
+            position: relative;
+            float: right;
+            padding-right: 10px;
+            line-height: 2.5;
+            font-weight: bold;
+            color: #455a64;
+            z-index: 10000;
+            margin-left: 100px;
+          }
+          .progress{
+            height: 40px;
+            position: absolute;
+            border-radius: 5px;
+            box-shadow: 2px 0 2px #555;
+          }
+          .cColor{
+            background: rgba(194, 24, 91, 0.5);
+
+          }
+          .c1Color{
+            background: rgba(171, 71, 188, 0.5);
+          }
+          .c2Color{
+            background: rgba(1, 135, 134, 0.5);
+          }
+          .javaColor{
+            background:rgba(231, 76, 60, 0.5);
+          }
+          .jsColor{
+            background: rgba(26, 35, 126, 0.5);
+          }
+          .phpColor{
+            background: rgba(27, 94, 32, 0.5);
+          }
+          .pyColor{
+            background: rgba(241, 196, 15, 0.5);
+          }
+          .rubyColor{
+            background:rgba(2, 136, 209, 0.5);
+          }
+          .c{
+            background: #ec407a;
+          }
+          .c1{
+            background:#DA70D6;
+          }
+          .c2{
+            background: #03dac6;
+          }
+          .java{
+            background:#EC7063;
+          }
+          .ruby{
+            background:#03A9F4 ;
+          }
+          .js{
+            background: #5c6bc0;
+          }
+          .php{
+            background: #66bb6a;
+          }
+          .py{
+            background: #F7DC6F;
+          }
+          @media (max-width: 720px) {
+            .main1{
+              width: 90%;
+            }
+          }
+a{
+  text-decoration: none;
+  color: inherit;
+}
+nav{
+  background: #0a0a0a;
+  height: 80px;
+  width: 100%;
+  font-family:"Dosis",san-serif;
+}
+label.logo{
+  color: white;
+  font-size: 30px;
+  line-height: 80px;
+  padding-top: 10px ;
+  padding-bottom: 20px;
+  font-weight: bold;
+  position: relative;
+  bottom: 20px;
+  left: 30px;
+}
+.bcd{
+  height:75px;
+  width: 75px;
+  position: relative;
+  left: 20px;
+}
+nav ul{
+    margin-top: 0;
+  float: right;
+  margin-right: 40px;
+}
+.anchor{
+  padding-bottom:10px;
+text-decoration: none;
+color: rgb(177, 177, 177) ;
+}
+.anchor:hover{
+  color: rgb(162, 55, 177);
+  transition: 0.5s;
+}
+.anchor1{
+  text-decoration: none;
+  margin:5px;
+color: rgb(177, 177, 177) ;
+}
+.anchor1:hover{
+  text-decoration: underline;
+  color: rgb(162, 55, 177);
+  transition: 0.5s;
+}
+hr{
+  padding:0px;
+  height:1px ;
+  background-color: rgb(177, 177, 177);
+  border: none;
+  margin: 0px;
+}
+.footer {
+  /* position: absolute;
+  left: 0;   */
+  width: 100%;
+  color: rgb(177, 177, 177);
+  text-align: center;
+  font-family: "Dosis", sans-serif;
+  margin-top:-20px;
+}
+/* Create two equal columns that floats next to each other */
+.column1 {
+  box-sizing: border-box;
+  float: left;
+  width: 60%;
+  padding: 10px;
+  height: 220px; /* Should be removed. Only for demonstration */
+}
+
+.column2 {
+  box-sizing: border-box;
+  float: left;
+  width: 40%;
+  padding: 10px;
+  height: 220px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.footer h2{
+    font-family:"Dosis",san-serif;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration:none;
+}
+nav a.active,nav a:hover{
+  background: #c25cbdd8;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 20px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+@media (max-width: 900px){
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+}
+@media (max-width: 900px){
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 15px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  nav a:hover,nav a.active{
+    background:none;
+    color: #ac45ac;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
+.block{
+    margin-bottom:80px;
+}
