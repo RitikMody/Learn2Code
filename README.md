@@ -9,8 +9,7 @@
 Learn2Code is an online platform to help the upcoming programmers to improve their coding skills. Learn2Code helps programmers build concelts in different programming languages that include C, C++, C#, Java, JavaScript, Python, PHP and Ruby. 
 </p>
 
-
-<p>Over courses: </p>
+## Courses
 
 <a href="https://learn2codeforfree.000webhostapp.com/course/c.php">C language</a>
 <br/>
@@ -29,9 +28,9 @@ Learn2Code is an online platform to help the upcoming programmers to improve the
 <a href="https://learn2codeforfree.000webhostapp.com/course/ruby.php">Ruby language</a>
 
 
-# this project make with PHP, CSS and Hack
+### This project is with PHP, CSS and HTML.
 
-<p>features this project are: </p>
+<p>Features are: </p>
 
 <a href="https://learn2codeforfree.000webhostapp.com/course/">Learning</a>
 <br/>
